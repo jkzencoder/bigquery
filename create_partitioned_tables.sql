@@ -1,5 +1,5 @@
 -- partition on DATE column, daily
-CREATE TABLE `jkzencoder-371912.demo.mytable` 
+CREATE TABLE `<your_project>.<your_dataset>.mytable` 
   (
     my_date DATE
   ) 
@@ -15,7 +15,7 @@ CREATE TABLE `jkzencoder-371912.demo.mytable`
 
 
 -- partition on DATE column, monthly
-CREATE TABLE `jkzencoder-371912.demo.mytable` 
+CREATE TABLE `<your_project>.<your_dataset>.mytable` 
   (
     my_date DATE
   ) 
@@ -26,7 +26,7 @@ CREATE TABLE `jkzencoder-371912.demo.mytable`
     require_partition_filter = TRUE)
 
 -- partition on TIMESTAMP column, daily
-CREATE TABLE `jkzencoder-371912.demo.mytable` 
+CREATE TABLE `<your_project>.<your_dataset>.mytable` 
   (
     my_time TIMESTAMP
   ) 
@@ -38,7 +38,7 @@ CREATE TABLE `jkzencoder-371912.demo.mytable`
 
 
 -- partition on ingestion time, hourly
-CREATE TABLE `jkzencoder-371912.demo.mytable` 
+CREATE TABLE `<your_project>.<your_dataset>.mytable` 
   (
     my_col STRING
   ) 
@@ -50,7 +50,7 @@ CREATE TABLE `jkzencoder-371912.demo.mytable`
 
 
 -- partition on ingestion time, daily
-CREATE TABLE `jkzencoder-371912.demo.mytable` 
+CREATE TABLE `<your_project>.<your_dataset>.mytable` 
   (
     my_col STRING
   ) 
@@ -62,7 +62,7 @@ CREATE TABLE `jkzencoder-371912.demo.mytable`
 
 
 -- partition on integer column
-CREATE TABLE `jkzencoder-371912.demo.mytable` 
+CREATE TABLE `<your_project>.<your_dataset>.mytable` 
   (
     department_id INTEGER
   ) 
